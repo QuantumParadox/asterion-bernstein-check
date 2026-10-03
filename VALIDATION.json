@@ -1,0 +1,15 @@
+{
+  "python": "3.14.7",
+  "test_methods": 13,
+  "recorded_polynomials": 40,
+  "synthetic_forward_conversion_cases": 400,
+  "exact_point_comparisons": 2000,
+  "semantic_mutations_rejected": 240,
+  "original_bridge_replayed": true,
+  "lean_recompiled": false,
+  "independent_human_review": "PENDING",
+  "ai_benchmark": "NOT_RUN",
+  "novelty": "NOT_ESTABLISHED",
+  "prior_review_archive_sha256": "b84c865080a5fe16c09160275f94a6f552477244b7037ecbcd7a27a24f29d24f",
+  "scope": "Local development checks; not independent human review or held-out model evaluation"
+}

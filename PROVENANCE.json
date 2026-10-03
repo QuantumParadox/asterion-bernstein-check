@@ -1,0 +1,40 @@
+{
+  "source_record": "BERNSTEIN-20261002/release-20261002T215822Z/packet",
+  "source_bindings_sha256": "0ca58449968d2396c12bbb733336a1d5b9a217be6d432dbfc09750c763302eaf",
+  "source_uniform_sha256": "dbae0e7a285cbcafff6beceedc54f400fe59a290ddf51e27f6411f2498748f8c",
+  "original_bridge_replayed": true,
+  "prior_lean_receipt": {
+    "status": "PASS_KERNEL_AND_TWO_REJECTION_CONTROLS",
+    "generic_bound_theorems": 2,
+    "concrete_denominator_bounds": 40,
+    "concrete_polynomial_identities": 40,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "lean_version": "4.33.1",
+    "source_sha256": "2a2444f333cbbf6a554ca8597ecc4b7819740c31a5bad9477208b3486f4b79fc",
+    "controls": [
+      {
+        "name": "WrongPolynomial",
+        "rejected": true,
+        "returncode": 1
+      },
+      {
+        "name": "FalseLowerBound",
+        "rejected": true,
+        "returncode": 1
+      }
+    ],
+    "full_qutrit_theorem_formalized": false,
+    "novelty": "NOT_ESTABLISHED"
+  },
+  "lean_recompiled_this_run": false,
+  "new_checker_formally_verified": false,
+  "public_license_granted": true,
+  "novelty": "NOT_ESTABLISHED",
+  "license_scope": "MIT, this isolated repository only",
+  "source_bindings_export_sha256": "ea13c5fecba882859fbfaead1b5494359958202408ebf57077879f1ab795fc31"
+}
